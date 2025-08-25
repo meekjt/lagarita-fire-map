@@ -30,6 +30,16 @@
         showZoom: true,
         showCompass: true
     }));
+
+    var popup = new maplibregl.Popup({ offset: 25 }) // Adjust offset as needed
+        .setHTML('<h3>La Garita Fire Station (Proposed)</h3>') // Your label text and content
+
+
+    const marker = new maplibregl.Marker()
+        .setLngLat([-106.2422247, 37.8388597])
+        .addTo(map);
+    
+    marker.setPopup(popup);
 </script>
 </body>
 </html>
