@@ -1,0 +1,7 @@
+{
+  "name": "lagarita-fire-map",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "git lfs pull || echo 'Warning: git-lfs not available'"
+  }
+}
