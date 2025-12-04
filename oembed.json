@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "type": "rich",
+  "title": "La Garita Fire District Map",
+  "author_name": "La Garita Fire District",
+  "provider_name": "La Garita Fire District Mapping",
+  "provider_url": "http://localhost:8000",
+  "cache_age": 3600,
+  "html": "<iframe src=\"http://localhost:8000\" width=\"800\" height=\"600\" frameborder=\"0\" allowfullscreen=\"true\" style=\"max-width: 100%;\"></iframe>",
+  "width": 800,
+  "height": 600,
+  "thumbnail_url": "https://tile.openstreetmap.org/9/107/193.png",
+  "thumbnail_width": 256,
+  "thumbnail_height": 256
+}

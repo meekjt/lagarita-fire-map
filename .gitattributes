@@ -1,0 +1,6 @@
+data/fire_districts_colorado.geojson filter=lfs diff=lfs merge=lfs -text
+data/private_land_saguache.geojson filter=lfs diff=lfs merge=lfs -text
+data/Proposed[[:space:]]Fire[[:space:]]District.geojson filter=lfs diff=lfs merge=lfs -text
+data/public_land.geojson filter=lfs diff=lfs merge=lfs -text
+data/sections.geojson filter=lfs diff=lfs merge=lfs -text
+data/township.geojson filter=lfs diff=lfs merge=lfs -text
